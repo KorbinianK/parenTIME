@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+<!-- General -->
+    <string name="app_name">parenTIME</string>
+    <string name="email">E-mail</string>
+   	<string name="menu_settings">Settings</string>
+   	<string name="desc_account_bg">Accout Background</string>
+   	<string name="fill_all_fields">Bitte alle Felder ausfüllen</string>
+   	<string name="saved">Termin gespeichert</string>
+   	<string name="please_wait">Bitte warten</string>
+   	<string name="loading">Daten werden geladen</string>
+   	<string name="dialog_tutorial_title">Erster Start</string>
+   	<string name="dialog_start_tutorial">Wollen Sie ein kurzes Tutorial?</string>
+   	<string name="page">Seite</string>
+   	<string name="action_refresh">Neu laden</string>
+   	<string name="action_refresh">Hilfe</string>
+	<string name="action_help">Hilfe</string>
+   	
+<!-- Welcome -->
+
+	<string name="logged_in_as">Sie sind eingeloggt als: </string>
+	<string name="welcome">Willkommen!</string>
+	<string name="welcometxt_blind"></string>
+	<string name="welcome_title">Elternsprechtag am 11.10.</string>
+	<string name="welcome_time">von 8:00 &#8211; 14:00 Uhr</string>
+	<string name="welcome_help">Navigieren Sie über das linke Menü</string>
+    
+<!-- Login and Signup Strings -->
+   	
+    <string name="signup_link">Noch keinen Accout?</string> 
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Registrieren</string>
+    <string name="logout_button">Log Out</string>
+    <string name="not_filled">Bitte alle Felder ausfüllen</string>
+    <string name="success_signup">Erfolgreich registriert</string>
+    <string name="verify">Vor dem ersten Login müssen Sie ihre E-mail Adresse bestätigen</string>
+    <string name="verify_title">E-mail bestätigen</string>
+    <string name="ok_button">OK</string>
+    <string name="yes_button">Ja</string>
+    <string name="no_button">Nein, danke</string>
+    <string name="next_button">Weiter</string>
+    <string name="text_label">label</string>
+    <string name="forename">Vorname</string>
+    <string name="surname">Nachname</string>
+    <string name="please_verify">Sie müssen Ihre E-mail bestätigen</string>
+    <string name="wrong_pw_us">Benutzername oder Passwort falsch</string>
+    <string name="register">Registrieren</string>
+    <string name="email_taken">E-mail wird bereits verwendet</string>
+    <string name="name_desc">Bitte geben Sie Ihren Namen ein</string>
+    <string name="username_desc">Bitte notieren Sie sich Ihren Benutzernamen und Passwort</string>
+    <string name="email_password_desc">Bitte geben Sie Ihre E-mail Adresse ein</string>
+    
+<!-- Sidebar Drawer -->    
+    <string-array name="drawer_items">
+        <item>Home</item>
+        <item>Termin erstellen</item>
+        <item>Meine Termine</item>
+        <item>Hilfe</item>
+        <item>Logout</item>
+    </string-array>
+  
+    
+    
+<!--  Sidebar Admin -->
+<string-array name="drawer_items_admin">
+        <item>Übersicht</item>
+        <item>Lehrer erstellen</item>
+        <item>Logout</item>
+    </string-array>
+	<string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    
+<!--  Sidebar Teacher -->
+<string-array name="drawer_items_teacher">
+        <item>Home</item>
+        <item>Termine</item>
+        <item>Logout</item>
+    </string-array>    
+<!-- Admin -->
+	<string name="last_user_created">Neuester User registiert am:</string>
+	<string name="last_changed_appointment">Letze Terminänderung:</string>
+	<string name="teacher_count">Lehrer: </string>
+	<string name="user_count">User: </string>
+	<string name="app_count">Termine:</string>
+	<string name="hint_firstname">Vorname *</string>
+	<string name="hint_lastname">Nachname *</string>
+	<string name="hint_email">E-mail *</string>
+	<string name="hint_password">Passwort *</string>
+	<string name="hint_subject1">Fach 1 *</string>
+	<string name="hint_subject2">Fach 2</string>
+	<string name="hint_subject3">Fach 3</string>
+	<string name="create_teacher">Neuer Lehrer Account</string>
+	<string name="create_button">Erstellen</string>
+	<string name="required">Die mit * gekennzeichneten Felder müssen ausgefüllt werden</string>
+
+	
+<!-- Teacher View -->
+    <string name="surnamelabel">"Nachname : "</string>
+    <string name="forenamelabel">"Vorname : "</string>
+
+    <string name="picture">pic</string>
+    <string name="subject">Fach</string>
+    
+	<string name="nolistview">Dieser Lehrer hat leider keine freien Termine mehr.</string>
+	<string name="alreadydate">Mit diesem Lehrer haben Sie bereits einen Termin von: </string>
+	<string name="uhr"> Uhr</string>
+	<string name="cancel">Cancel</string>
+    <string name="dialog_confirm_date">Möchten Sie diesen Termin:</string>
+    
+    <string name="action_del">Termin löschen</string>
+    
+    <!-- Account View -->
+    	<string name="no_date_yet">Sie haben noch keine Termine.</string>
+    <string name="appointments">Termine</string>
+    <string name="undo">Rückgängig</string>
+    <string name="undo_done">Termin wiederhergestellt</string>
+	<string name="swipe">Swipe</string>
+	<string name="desc_swipe">swipe direction</string>
+	<string name="action_share">Teilen</string>
+	<string name="termine">Elternsprechtag Termine</string>
+
+</resources>
+
+
+	

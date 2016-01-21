@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <ImageView
+        android:id="@+id/account_title_background"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/desc_account_bg"
+        android:scaleType="centerCrop"
+        android:src="@drawable/acc_bg" />
+
+    <TextView
+        android:id="@+id/appointments_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/profile_lastname"
+        android:layout_marginRight="33dp"
+        android:paddingRight="18dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/account_title_background"
+        android:paddingBottom="20dp"
+        android:paddingLeft="150dp"
+        android:paddingRight="150dp" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/list_main_bg" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/list_bot_bg" />
+
+        <RelativeLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/list_top" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fadingEdge="vertical" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/subjecttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nametxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="67dp"
+        android:paddingRight="18dp"
+        android:text="@string/appointments"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/surnametxt"
+        android:layout_alignBottom="@+id/surnametxt"
+        android:layout_alignRight="@+id/subjecttxt"
+        android:layout_marginRight="27dp"
+        android:text="@string/appointments"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/surnametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/subjecttxt"
+        android:layout_below="@+id/appointments_number"
+        android:layout_marginLeft="52dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="10dp"
+        android:text="@string/appointments"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
